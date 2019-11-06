@@ -1,4 +1,5 @@
 Administration Group Project
+
 This project was designed to allow for admin/instructors to mark students for attendance, grades, and add assignments. It also allows for students to see their grades, attendance, and courses/programs they are enrolled in. Administration can manage programs/courses, and other users.
 
 Table of content
@@ -18,6 +19,7 @@ Daseul
 
 
 Technologies
+
 Ruby on Rails
 HTML/CSS
 JavaScript
@@ -26,15 +28,18 @@ ECharts
 PostreSQL
 Slack/Trello/Github
 Setup
+
 Please note, you have to rails db:reset the DB, not rails db:seed everytime you are starting over. We have hard-coded user roles and don't want them to auto-increment (and break).
 
 git clone 
+
 git@github.com:caffkane/admin-group-project.git
 cd admin-group-project
 yarn install --check-files
 bundle install
 rails db:reset
 rails s
+
 This will clone the integration branch onto your computer.
 
 To execute the rake task to import users from a CSV:
