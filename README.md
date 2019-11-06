@@ -1,22 +1,21 @@
 Administration Group Project
 This project was designed to allow for admin/instructors to mark students for attendance, grades, and add assignments. It also allows for students to see their grades, attendance, and courses/programs they are enrolled in. Administration can manage programs/courses, and other users.
 
-Table of contents
+Table of content
+
 Team
-Screenshots
 Technologies
 Setup
 Features
 Roles
+
 Team
 Logan
 Mao
 Tamara
 Daseul
-Screenshots
-screen1
 
-screen2
+
 
 Technologies
 Ruby on Rails
